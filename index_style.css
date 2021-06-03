@@ -1,0 +1,825 @@
+/* ESTILO DE PÁGINAS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* BODYS */
+
+.index-body {
+    background-image: url(images/ginger_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.adoptions-body {
+    background-image: url(images/calico_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.donate-body {
+    background-image: url(images/white_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contact-body {
+    background-image: url(images/black_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.foster-body {
+    background-image: url(images/grey_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.spay-neuter-body {
+    background-image: url(images/tabby_ginger_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.to-do-body {
+    background-image: url(images/tabby_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* IMAGES */
+
+/* logo */
+.logo-position {
+    width: 15% ;
+    margin: auto;
+    display: block;
+}
+
+/* imagenes */
+.banner-style {
+    margin: 0;
+    width: 100% ;
+    display: block;
+    padding: 0px;
+    }
+
+.img-style {
+    margin: auto;
+    display: block;
+    padding: 30px 0;
+}
+
+.button-image {
+    padding: 0 0 0 410px;
+    width: 250px;
+    height: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-img-style {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .mobile-img-style {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .media-logos {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .media-logos {
+        width: 10px;
+        height: 10px;
+    }
+} 
+
+/* TEXTS */
+
+/* estilos generales */
+.general-style {
+    color: #dbacac;   
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    margin: 50px 150px 0 150px;
+    border: 1px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+    .general-style {
+       color: #dbacac;   
+       font-size: 20px;
+       text-align: center;
+       background-color: white;
+       margin: 10px 100px 0 100px;
+       border: 1px solid white;
+   }
+}
+
+@media only screen and (max-width: 320px) {
+    .general-style {
+        color: #dbacac;   
+        font-size: 8px;
+        text-align: center;
+        background-color: white;
+        margin: 10px 50px 0 50px;
+        border: 1px solid white;
+    }
+}
+
+/* estilo de titulos */
+.title-style {
+    color: #dbacac;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: white;
+    /* margin: 0 150px 0 150px; */
+    padding: 20px 20px;    
+}
+
+@media only screen and (max-width: 768px) {
+    .title-style {
+        color: #dbacac;
+        font-size: 25px;
+        text-decoration: underline;
+        background-color: white;
+        padding: 20px 20px;    
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .title-style {
+        color: #dbacac;
+        font-size: 10px;
+        text-decoration: underline;
+        background-color: white;
+        padding: 10px 10px;    
+    }
+}
+
+.subtitle-style {
+    color: #dbacac;
+    font-size: 20px;  
+    text-align: justify;
+    background-color: white;
+    /* margin: 0 150px 0 150px; */
+    padding: 20px 0 20px 0;     
+}
+
+@media only screen and (max-width: 768px) {
+    .subtitle-style {
+        color: #dbacac;
+        font-size: 20px;  
+        text-align: justify;
+        background-color: white;
+        padding: 20px 0 20px 0;     
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .subtitle-style {
+        color: #dbacac;
+        font-size: 8px;  
+        text-align: justify;
+        background-color: white;
+        padding: 10px 0 10px 0;     
+    }
+}
+
+/***************************************************/
+
+/* estilo de parrafos*/
+.paragraph-style {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #dbacac;
+    text-align: left;
+    background-color: white;
+    /* margin: 0 150px 0 150px; */
+    padding: 10px 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .paragraph-style {
+        font-family: 'IBM Plex Mono', monospace;
+        color: #dbacac;
+        text-align: left;
+        background-color: white;
+        padding: 15px 15px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .paragraph-style {
+        font-family: 'IBM Plex Mono', monospace;
+        color: #dbacac;
+        text-align: left;
+        background-color: white;
+        padding: 5px 5px;
+        font-size: 8px;
+    }
+}
+
+.descriptions-style {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #dbacac;
+    text-align: center;
+    background-color: white;
+    margin: 20px 100px 20px 100px;
+    padding: 0 10px;
+}
+
+/* estilo de listas */
+.list-style {
+    color: #dbacac;
+    text-align: justify;
+    background-color: white;
+    }
+
+/* NAVIGATION */
+
+/* hipervinculos */
+.link-style {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .link-style {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .link-style {
+        text-decoration: none;
+        font-size: 10px;
+        color: white;
+    }
+} 
+
+/* listas con hipervinculos */
+.list-link-style {
+    color: white;
+    text-align: justify;
+    display: inline;
+    margin: 0 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .list-link-style {
+        color: white;
+        text-align: justify;
+        display: inline;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .list-link-style {
+        color: white;
+        text-align: justify;
+        display: inline;
+        margin: 5px;
+    }
+} 
+
+.list-link-style:hover{
+   text-decoration: underline;
+}
+
+/* hipervinculos redes sociales */
+.social-media-style {
+    text-decoration: underline;
+    font-size: 20px;
+    color: #dbacac;
+ }
+
+.social-media-style2 {
+    text-decoration: underline;
+    font-size: 20px;
+    color: #7d5a5a;
+}
+
+ @media only screen and (max-width: 768px) {
+    .social-media-style {
+        text-decoration: underline;
+        font-size: 15px;
+        color: #dbacac;
+     }
+}
+
+@media only screen and (max-width: 320px) {
+    .social-media-style {
+        text-decoration: underline;
+        font-size: 8px;
+        color: #dbacac;
+     }
+} 
+
+ /* hipervinculos externos */
+ .link-externo-style {
+    text-decoration: none;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    color: #7d5a5a;
+    text-decoration: underline;
+    text-align: center;
+}
+
+ /* BUTTONS */
+
+ /* boton general */
+ .button-style {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 250px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .button-style {
+        background-color: white;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 15px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .button-style {
+        background-color: white;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 10px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 100px;
+    }
+}
+
+.button-style:hover {
+    background-color: #7d5a5a;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-decoration: underline;
+    transform: scale(1.25);
+    transition: all 2s;
+}
+
+/* boton seccion adopciones */
+.adoption-button-style {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 50%;
+    margin: 10px 250px 10px 250px;
+}
+
+.adoption-button-style:hover {
+    background-color: #7d5a5a;
+    transform: scale(1.25);
+    transition: all 2s;
+}
+
+/* hipervinculo del boton */
+.button-link-style {
+    text-decoration: none;
+    color: #7d5a5a;
+}
+
+.button-link-style:hover {
+    color: white;
+}
+
+/* OTROS */
+
+/* fondo general */
+.solid-style {
+    color: #dbacac;
+    text-align: justify;
+    background-color: white;
+    margin: 0 150px 0 150px;
+    border: 1px solid white;
+    padding: 0 20px 0 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .solid-style {
+        color: #dbacac;
+        text-align: justify;
+        background-color: white;
+        margin: 0 100px 0 100px;
+        border: 1px solid white;
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .solid-style {
+        color: #dbacac;
+        text-align: justify;
+        background-color: white;
+        margin: 0 50px 0 50px;
+        border: 1px solid white;
+        padding: 0 10px 0 10px;
+    }
+}
+
+.footer {
+    text-align: left;
+    background-color: black;
+    margin-top: 30px;
+    width: 100%;
+    color: #dbacac;
+    font-size: 20px; 
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        text-align: left;
+        background-color: black;
+        margin-top: 15px;
+        width: 100%;
+        color: #dbacac;
+        font-size: 15px; 
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .footer {
+        text-align: left;
+        background-color: black;
+        margin-top: 10px;
+        width: 100%;
+        color: #dbacac;
+        font-size: 8px; 
+    }
+} 
+
+.footer-paragraph {
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-paragraph {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .footer-paragraph {
+        margin-left: 10px;
+    }
+} 
+
+.footer-links-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-links-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .footer-links-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+} 
+
+.social-media {
+    margin-left: 50px;    
+}
+
+@media only screen and (max-width: 768px) {
+    .social-media {
+        margin-left: 20px;    
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .social-media {
+        margin-left: 10px;    
+    }
+} 
+
+.footer-link {
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-link {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .footer-link {
+        margin-right: 10px;
+    }
+} 
+
+.link {
+    text-decoration: none;
+    color: #dbacac;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .link {
+        text-decoration: none;
+        color: #dbacac;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .link {
+        text-decoration: none;
+        color: #dbacac;
+        font-size: 8px;
+    }
+} 
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* containers */
+.menu-container {
+    background-image: linear-gradient(to bottom, #7d5a5a, #e0bbbb);
+    /* background-color: #7d5a5a; */
+    margin: 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-container {
+        background-color: #7d5a5a;
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .menu-container {
+        background-color: #7d5a5a;
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.button-image-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .button-image-container {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .button-image-container {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .button-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .button-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+}
+
+.footer-container {
+    text-align: left;
+    background-image: linear-gradient(to bottom, #7d5a5a, #e0bbbb);
+    /* background-color: black; */
+    width: 100%;
+    color: #dbacac;
+    font-size: 20px; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-container {
+        text-align: left;
+        background-color: black;
+        width: 100%;
+        color: #dbacac;
+        font-size: 15px; 
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .footer-container {
+        text-align: left;
+        background-color: black;
+        width: 100%;
+        color: #dbacac;
+        font-size: 8px; 
+        display: flex;
+        justify-content: space-between;
+    }
+} 
+
+.adoption-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* GRIDS */
+
+.principal-grid {
+    box-sizing: border-box;
+    margin: 0 150px 0 150px;
+    color: #dbacac;
+    text-align: justify;
+    background-color: white;
+
+    display: grid;
+    grid-template-areas: 
+        "intro intro"
+        "intro2 intro2"
+        "physical img1"
+        "behavior img1"
+        "img2 tnr1"
+        "tnr2 img3"
+        "final final";
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 200px 150px 350px 350px 550px 400px 200px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.intro {
+    grid-area: intro;
+    margin-top: 50px;
+}
+
+.intro2 {
+    grid-area: intro2; 
+}
+
+.physical {
+    grid-area: physical;
+}
+
+.img1 {
+    grid-area: img1;
+    justify-self: center;
+    align-self: center;
+}
+
+.behavior {
+    grid-area: behavior;    
+}
+
+.tnr1 {
+    grid-area: tnr1;    
+}
+
+.img2 {
+    grid-area: img2;
+    justify-self: center;
+    align-self: center;  
+}
+
+.tnr2 {
+    grid-area: tnr2;    
+}
+
+.img3 {
+    grid-area: img3;   
+    justify-self: center;
+    align-self: center;
+}
+
+.final {
+    grid-area: final;
+}
+
+.item-paragraph-grid {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #dbacac;
+    text-align: left;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.item-title-grid {
+    color: #dbacac;
+    font-size: 25px;
+    text-decoration: underline;
+    padding-left: 20px;    
+}
+
+.item-list-grid {
+    color: #dbacac;
+}
+
+
+/* GRADIENTE */
+
+
